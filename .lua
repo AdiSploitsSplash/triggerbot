@@ -1,4 +1,4 @@
-triggerbot.MouseButton1Down:connect(function()
+
 	local player = game:GetService("Players").LocalPlayer
 	local mouse = player:GetMouse()
 	game:GetService("RunService").RenderStepped:Connect(function()
@@ -6,4 +6,3 @@ triggerbot.MouseButton1Down:connect(function()
 			mouse1press() wait() mouse1release()
 		end
 	end)
-end)
